@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <script src="blackjack.js"></script>
+    <link rel="stylesheet" href="blackjack.css" />
+    <title>ブラックジャック</title>
+  </head>
+  <body>
+    <div id="grid">
+      <h1>Black Jack</h1>
+      <p id="exp">ルール説明<br>
+         左が自分の手札、右がディーラーの手札となる<br>
+         自分の手札の合計値がディーラーの合計値を超え、<br>かつ21を超えなければ勝ちとなる<br>
+         ヒットで手札を追加、スタンドで勝負をかける
+      </p>
+      <div id="cards">
+        <div id="myCards">
+          <p class="nameprate">&lt;Me&gt;</p>
+          <div id="myCardsPlace" class="cardsPlace">
+          </div>
+        </div>
+        <div id="dealerCards">
+          <p class="nameprate">&lt;Dealer&gt;</p>
+          <div id="dealerCardsPlace" class="cardsPlace">
+          </div>
+        </div>
+      </div>
+      <div id="selectButton">
+          <button id="hit" onclick="hitButton()">ヒット</button>
+          <button id="stand" onclick="standButton()">スタンド</button>
+      <div>
+      <div id="result-area"></div>
+      <div id="tweet-area"></div>
+    </div>
+  </body>
+</html>

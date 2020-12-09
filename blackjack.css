@@ -1,0 +1,90 @@
+body {
+    background-color: #000000;
+    color: #fdffff;
+    width: 1000px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+#grid{
+    height:500px;
+    background-color: #309c73;
+    text-align: center;
+}
+h1{
+    color: #000000;
+    text-align: center;
+}
+.nameprate{
+    text-shadow    :
+       1px  1px 0px #003366,
+      -1px  1px 0px #003366,
+       1px -1px 0px #003366,
+      -1px -1px 0px #003366,
+       1px  0px 0px #003366,
+       0px  1px 0px #003366,
+      -1px  0px 0px #003366,
+       0px -1px 0px #003366;
+}
+#exp{
+    background-color: rgb(175, 139, 94);
+    width: 400px;
+    text-align: center;
+}
+
+#cards{
+    display:flex;
+}
+#myCards{
+    width: 50%;
+}
+#dealerCards{
+    width: 50%;
+}
+.cardsPlace{
+    position: relative;
+}
+
+#selectButton{
+    position: fixed;
+    top: 465px;
+    left: 45%;
+    margin-right: auto;
+    margin-left: auto;
+}
+#tweet-area{
+    position: fixed;
+    top: 500px;
+    left: 43.5%;
+}
+#result-area{
+    position: fixed;
+    top: 120px;
+    left: 50%;
+    width: 400px;
+
+    background-color: rgb(122, 179, 146);
+
+    font-size      : 36pt;
+    letter-spacing : 2px;
+    text-shadow    :
+       1px  1px 1px #003366,
+      -1px  1px 1px #003366,
+       1px -1px 1px #003366,
+      -1px -1px 1px #003366,
+       1px  0px 1px #003366,
+       0px  1px 1px #003366,
+      -1px  0px 1px #003366,
+       0px -1px 1px #003366;
+}
+
+button {
+    padding: 5px 10px;
+    background-color: #393f4ba8;
+    color: #fdffff;
+    border-style: none;
+}
+input {
+    height: 20px;
+    color: #fff241;
+}
