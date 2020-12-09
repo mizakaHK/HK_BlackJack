@@ -224,8 +224,14 @@ function tweetMaker(status){
     tweetPlace.appendChild(script);
 }
 
+function ignoreButton(){
+    document.getElementById('hit').onclick='';
+    document.getElementById('stand').onclick='';
+}
+
 function gameSet(status){
     returnDealerCards();
     resultWindow(status);
+    ignoreButton();
     tweetMaker(status);
 }
